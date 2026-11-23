@@ -33,6 +33,20 @@ It provides two input modes:
 - NumPy
 - Pandas
 
+## 📸 Application Screenshots
+
+### 1. Home Page
+![Home Page](screenshots/home.png)
+
+### 2. Upload Video
+![Upload Video](screenshots/upload-video.png)
+
+### 3. Live Webcam
+![Webcam](screenshots/webcam.png)
+
+### 4. Object Tracking
+![Object Tracking](screenshots/object_tracking.png)
+
 ## 📂 Project Structure
 
 ```text
