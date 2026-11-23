@@ -870,7 +870,11 @@ elif st.session_state.input_type == "Webcam":
     # WEBRTC STREAMER
     # =================================
 
-    ctx = webrtc_streamer(
+    webcam_col, empty_col = st.columns([110, 15])
+
+    with webcam_col:
+
+     ctx = webrtc_streamer(
 
         key=f"object-tracking-{st.session_state.webcam_session_id}",
 
@@ -885,7 +889,7 @@ elif st.session_state.input_type == "Webcam":
 
         async_processing=True
     )
-
+     
     st.info(
         "Your webcam feed displays detected objects, "
         "bounding boxes, tracking IDs and live statistics."
