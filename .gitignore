@@ -1,0 +1,21 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temporary files
+*.tmp
+temp/
+uploads/
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# IDE files
+.vscode/
